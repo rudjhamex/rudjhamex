@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Recipe</title>
+    <style>
+        /* ... Your existing CSS styles ... */
+
+        /* Recipe Search Bar */
+        .search-bar {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .search-input {
+            width: 60%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .search-button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Recipe Rating System */
+        .rating {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .rating-stars {
+            font-size: 24px;
+            color: #ffcc00;
+        }
+
+        /* Recipe Submission Form */
+        .submission-form {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        /* Blog Section */
+        .blog {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .blog-title {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .blog-content {
+            line-height: 1.6;
+        }
+
+        /* Social Media Integration */
+        .social-media {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .social-media-icons {
+            font-size: 24px;
+            margin-right: 10px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Delicious Recipe</h1>
+    </header>
+    <div class="container">
+        <!-- Recipe Search Bar -->
+        <div class="search-bar">
+            <input type="text" class="search-input" placeholder="Search for recipes">
+            <button class="search-button">Search</button>
+        </div>
+        
+        <h2>Recipe Name</h2>
+        <img src="recipe-image.jpg" alt="Delicious Recipe">
+        <h3>Ingredients</h3>
+        <ul>
+            <li>Ingredient 1</li>
+            <li>Ingredient 2</li>
+            <li>Ingredient 3</li>
+            <!-- Add more ingredients as needed -->
+        </ul>
+        <h3>Instructions</h3>
+        <ol>
+            <li>Step 1: Instructions for step 1.</li>
+            <li>Step 2: Instructions for step 2.</li>
+            <li>Step 3: Instructions for step 3.</li>
+            <!-- Add more steps as needed -->
+        </ol>
+        
+        <!-- Recipe Rating System -->
+        <div class="rating">
+            <div class="rating-stars">★★★★☆</div>
+            <p>4.5 stars based on 50 reviews</p>
+        </div>
+        
+        <!-- Recipe Submission Form -->
+        <div class="submission-form">
+            <h3>Submit Your Own Recipe</h3>
+            <form>
+                <input type="text" class="form-input" placeholder="Recipe Name">
+                <input type="text" class="form-input" placeholder="Ingredients">
+                <textarea class="form-input" placeholder="Instructions"></textarea>
+                <button class="search-button">Submit Recipe</button>
+            </form>
+        </div>
+        
+        <!-- Blog Section -->
+        <div class="blog">
+            <h2 class="blog-title">Latest Blog Post</h2>
+            <p class="blog-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget nisl in felis lacinia condimentum at quis sem.</p>
+            <a href="#" class="blog-link">Read More</a>
+        </div>
+        
+        <!-- Social Media Integration -->
+        <div class="social-media">
+            <p>Share this recipe:</p>
+            <a href="#" class="social-media-icons">Facebook</a>
+            <a href="#" class="social-media-icons">Twitter</a>
+            <a href="#" class="social-media-icons">Instagram</a>
+        </div>
+    </div>
+</body>
+</html>
